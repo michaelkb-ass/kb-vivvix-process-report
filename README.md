@@ -108,11 +108,11 @@ All file paths and directories are hardcoded as class variables at the top of th
 
 ## Athena Tables
 
-tracking_and_bi - bmat_na_reports: kobalt-athena-user-data-prod -----> raw files directly from BMAT
-tracking_and_bi - bmat_na_reports_workids -----> raw files directly from BMAT appended with internal SAX Work Ids 
-tracking_and_bi - bmat_na_reports_work_registrations -----> bmat_na_reports_workids appended with registrations information from SAX
-tracking_and_bi - bmat_controlled_works -----> bmat_na_reports_work_registrations ----> a filtered view of work_registrations to identify controlled and non-controlled works
-rdl_authorised - royalty_payment_detail_bmat -----> royalty_payment_detail filtered for TV Ad-Revenue from the United States: powers the data extracts in Tableau
+- 'tracking_and_bi - bmat_na_reports: kobalt-athena-user-data-prod -----> raw files directly from BMAT'
+- 'tracking_and_bi - bmat_na_reports_workids -----> raw files directly from BMAT appended with internal SAX Work Ids'
+- 'tracking_and_bi - bmat_na_reports_work_registrations -----> bmat_na_reports_workids appended with registrations information from SAX'
+- 'tracking_and_bi - bmat_controlled_works -----> bmat_na_reports_work_registrations ----> a filtered view of work_registrations to identify controlled and non-controlled works'
+- 'rdl_authorised - royalty_payment_detail_bmat -----> royalty_payment_detail filtered for TV Ad-Revenue from the United States: powers the data extracts in Tableau'
 
 ### Future Improvements
 
