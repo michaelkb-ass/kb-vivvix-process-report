@@ -10,7 +10,7 @@ A Python utility designed to streamline the processing of North American music a
 This codebase addresses the workflow of processing music usage reports for royalty claims. It involves a two-step process:
 
 1.  **Ingestion (`NA_Report` class):** Takes raw report files (Excel or CSV), validates columns, cleans the data (removes commas, formats dates), and appends it to a master ingestion file. This master file acts as a staging area for a data warehouse (e.g., AWS Athena).
-2.  **Submission Generation (`Report` class):** Reads a processed, enriched report (likely generated from the ingested data via an external query, e.g., Athena), filters for new and controlled works, and transforms the data into the specific formats required by ASCAP, BMI, and SESAC, saving them as separate Excel files.
+2.  **Submission Generation (`Report` class):** Reads a processed, enriched report (generated from the ingested data via an external query, e.g., Athena), filters for new and controlled works, and transforms the data into the specific formats required by ASCAP, BMI, and SESAC, saving them as separate Excel files.
 
 ## Features
 
@@ -41,7 +41,7 @@ This codebase addresses the workflow of processing music usage reports for royal
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
+    git clone <kb-vivvix-process-report>
     cd <your-repository-name>
     ```
 
